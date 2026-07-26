@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamata Balesh Kamagoudar | Portfolio Showcase</title>
+  <meta name="description" content="Portfolio of Mamata Balesh Kamagoudar - Computer Science & Engineering Student, AI/ML Developer, MERN Stack Specialist.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-accent">&lt;</span>Mamata.K<span class="logo-accent">/&gt;</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link"><i class="fa-solid fa-user-graduate"></i> About & Education</a></li>
+        <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+        <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://github.com/Mamatak16" target="_blank" class="btn btn-icon" title="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mamata-kamagoudar-096448298" target="_blank" class="btn btn-icon" title="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span> Open for Engineering & AI/ML Roles
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Mamata Balesh Kamagoudar</span>
+        </h1>
+        <p class="hero-subtitle">
+          Computer Science & Engineering Student at RVITM Bengaluru (CGPA: 8.53) specializing in <span class="highlight">Artificial Intelligence</span>, <span class="highlight">Machine Learning</span>, and <span class="highlight">MERN Stack Development</span>.
+        </p>
+
+        <div class="hero-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">mamata-terminal ~ zsh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">❯</span> whoami</p>
+            <p class="response">Mamata Balesh Kamagoudar — CSE Engineer & AI Researcher</p>
+            <p><span class="prompt">❯</span> cat current_focus.json</p>
+            <p class="response json">{ "institution": "RVITM", "degree": "B.E CSE (2023-2027)", "cgpa": 8.53, "domains": ["MERN Stack", "GNN & KG", "Agentic AI", "RAG"] }</p>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Projects</a>
+          <a href="#certifications" class="btn btn-secondary"><i class="fa-solid fa-award"></i> View Certifications</a>
+        </div>
+      </div>
+      <div class="hero-graphic">
+        <div class="banner-preview-card">
+          <img src="./assets/images/banner.svg" alt="Mamata Banner" class="hero-banner-img">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About & Education Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education & <span class="gradient-text">Academic Background</span></h2>
+        <p class="section-subtitle">Pursing excellence in Computer Science and Engineering</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card glass-card education-card">
+          <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="education-header">
+            <h3>B.E in Computer Science and Engineering</h3>
+            <span class="badge-accent">Aug 2023 – June 2027</span>
+          </div>
+          <h4 class="institution-name">RV Institute of Technology And Management</h4>
+          <p class="location"><i class="fa-solid fa-location-dot"></i> Bengaluru - 560083</p>
+          
+          <div class="cgpa-pill">
+            <span class="cgpa-label">Cumulative GPA</span>
+            <span class="cgpa-val">8.53 / 10.0</span>
+          </div>
+
+          <div class="education-highlights">
+            <div class="eh-item"><i class="fa-solid fa-circle-check"></i> Core Focus: Data Structures, OOPs, DBMS, Operating Systems</div>
+            <div class="eh-item"><i class="fa-solid fa-circle-check"></i> Practical Projects in Machine Learning, RAG, and Web Development</div>
+            <div class="eh-item"><i class="fa-solid fa-circle-check"></i> Active Participant in AI Workshops & Hackathons</div>
+          </div>
+        </div>
+
+        <div class="card glass-card core-highlights-card">
+          <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Technical Philosophy</h3>
+          <p class="card-desc">
+            Passionate about combining foundational software engineering with modern AI breakthroughs. Driven to craft robust web products using the MERN stack while pursuing research in Graph Neural Networks, Knowledge Graphs, and Retrieval-Augmented Generation (RAG).
+          </p>
+
+          <div class="quick-stats-grid">
+            <div class="qs-box">
+              <span class="qs-num">8.53</span>
+              <span class="qs-title">CGPA</span>
+            </div>
+            <div class="qs-box">
+              <span class="qs-num">6+</span>
+              <span class="qs-title">Key Projects</span>
+            </div>
+            <div class="qs-box">
+              <span class="qs-num">7+</span>
+              <span class="qs-title">Certifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills Matrix</span></h2>
+        <p class="section-subtitle">Languages, Frameworks, AI Technologies & Core Concepts</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill Group 1 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-code"></i> Programming Languages
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag highlight-green"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="skill-tag highlight-blue"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="skill-tag highlight-yellow"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fa-solid fa-c"></i> C</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 2 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-layer-group"></i> Web Technologies
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag highlight-teal"><i class="fa-solid fa-cubes"></i> MERN Stack</span>
+            <span class="skill-tag"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+            <span class="skill-tag"><i class="fa-solid fa-server"></i> Express.js</span>
+            <span class="skill-tag"><i class="fa-solid fa-database"></i> MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 3 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-robot"></i> AI Technologies
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag highlight-amber"><i class="fa-solid fa-microchip"></i> Machine Learning</span>
+            <span class="skill-tag highlight-purple"><i class="fa-solid fa-brain"></i> Artificial Intelligence</span>
+            <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> GNN & Knowledge Graphs</span>
+            <span class="skill-tag"><i class="fa-solid fa-file-contract"></i> RAG Systems</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 4 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Developer Tools
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fa-solid fa-sun"></i> Eclipse IDE</span>
+            <span class="skill-tag"><i class="fa-solid fa-book"></i> Jupyter Notebooks</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 5 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-book-bookmark"></i> Core CS Concepts
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag"><i class="fa-solid fa-shapes"></i> OOP's</span>
+            <span class="skill-tag"><i class="fa-solid fa-database"></i> DBMS</span>
+            <span class="skill-tag"><i class="fa-solid fa-desktop"></i> Operating Systems</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 6 -->
+        <div class="card glass-card skill-card">
+          <div class="skill-group-title">
+            <i class="fa-solid fa-people-group"></i> Soft Skills
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag highlight-green"><i class="fa-solid fa-comments"></i> Communication</span>
+            <span class="skill-tag highlight-amber"><i class="fa-solid fa-user-shield"></i> Leadership Qualities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Explore solutions across Web, AI/ML, and Graph Neural Networks</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web & MERN</button>
+        <button class="filter-btn" data-filter="aiml">AI & ML</button>
+        <button class="filter-btn" data-filter="research">Research & Agents</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="card glass-card project-card" data-category="web">
+          <div class="project-header">
+            <span class="project-tag">Web Application</span>
+            <a href="https://github.com/Mamatak16/KCET_Rank_Predictor_CollegeList_Generator" target="_blank" class="project-link-icon" title="GitHub Repo">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <h3 class="project-title">RANK2COLLEGE</h3>
+          <p class="project-desc">KCET Rank Predictor & College List Generator that processes rank metrics to generate customized engineering college lists for students.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Web Dev</span>
+            <span>KCET Analytics</span>
+          </div>
+          <a href="https://github.com/Mamatak16/KCET_Rank_Predictor_CollegeList_Generator" target="_blank" class="btn btn-sm btn-outline">View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card glass-card project-card" data-category="web">
+          <div class="project-header">
+            <span class="project-tag highlight-capabl">Worked under Capabl</span>
+            <a href="https://github.com/Mamatak16/Smart-Time-Table-Assistant" target="_blank" class="project-link-icon" title="GitHub Repo">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <h3 class="project-title">Smart Timetable Assistant</h3>
+          <p class="project-desc">Automated timetable generator and intelligent scheduling assistant developed under Capabl mentorship for educational institutions.</p>
+          <div class="project-tech">
+            <span>MERN Stack</span>
+            <span>Scheduling Logic</span>
+            <span>Capabl</span>
+          </div>
+          <a href="https://github.com/Mamatak16/Smart-Time-Table-Assistant" target="_blank" class="btn btn-sm btn-outline">View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card glass-card project-card" data-category="aiml">
+          <div class="project-header">
+            <span class="project-tag">Machine Learning</span>
+            <span class="project-status">Completed</span>
+          </div>
+          <h3 class="project-title">AIML - California House Price Prediction</h3>
+          <p class="project-desc">Predictive machine learning model using regression algorithms to estimate house valuation based on demographic and geographic features.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Scikit-Learn</span>
+            <span>AIML</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card glass-card project-card" data-category="research">
+          <div class="project-header">
+            <span class="project-tag highlight-purple">AI / RAG</span>
+            <span class="project-status">Completed</span>
+          </div>
+          <h3 class="project-title">RAG - Meeting Summariser</h3>
+          <p class="project-desc">Retrieval-Augmented Generation (RAG) system engineered to transcribe multi-speaker meeting audio and generate concise action-item summaries.</p>
+          <div class="project-tech">
+            <span>RAG</span>
+            <span>LLMs</span>
+            <span>NLP</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="card glass-card project-card" data-category="research">
+          <div class="project-header">
+            <span class="project-tag highlight-amber">Agentic AI</span>
+            <span class="project-status">Completed</span>
+          </div>
+          <h3 class="project-title">Market Trends Research Agent</h3>
+          <p class="project-desc">Autonomous AI agent capable of web search, document scraping, and real-time synthesis of market trends and technology insights.</p>
+          <div class="project-tech">
+            <span>Agentic AI</span>
+            <span>LLM Tooling</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="card glass-card project-card" data-category="research">
+          <div class="project-header">
+            <span class="project-tag highlight-teal">Research Project</span>
+            <span class="project-status">Deep Tech</span>
+          </div>
+          <h3 class="project-title">GNN & KG Agricultural Recommendation System</h3>
+          <p class="project-desc">State-of-the-art recommendation engine leveraging Graph Neural Networks (GNN) and Knowledge Graphs (KG) to optimize crop selection and agricultural yield.</p>
+          <div class="project-tech">
+            <span>GNN</span>
+            <span>Knowledge Graphs</span>
+            <span>PyTorch</span>
+            <span>AgriTech</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses & Certifications Section -->
+  <section class="section section-dark" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Courses & <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Continuous learning, workshops, and technical credentials</p>
+      </div>
+
+      <div class="certifications-grid">
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+          <div class="cert-body">
+            <h3>Machine Learning with Python Internship</h3>
+            <p class="cert-issuer">EISystems Services</p>
+            <span class="cert-tag">Internship & Certification</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="cert-body">
+            <h3>Cisco Networking Basics</h3>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <span class="cert-tag">Networking</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="cert-body">
+            <h3>Capabl Agentic AI Saksham Workshop</h3>
+            <p class="cert-issuer">Capabl</p>
+            <span class="cert-tag">Agentic AI</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+          <div class="cert-body">
+            <h3>Generative AI Workshop</h3>
+            <p class="cert-issuer">Ethical Edufabrica at IISc Bengaluru</p>
+            <span class="cert-tag">GenAI & IISc</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="cert-body">
+            <h3>Certificate of Participation — Hacker-ring</h3>
+            <p class="cert-issuer">Hacker-ring Hackathon</p>
+            <span class="cert-tag">Hackathon</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="cert-body">
+            <h3>Cyber Security And Ethical Hacking</h3>
+            <p class="cert-issuer">Professional Certification</p>
+            <span class="cert-tag">Cyber Security</span>
+          </div>
+        </div>
+
+        <div class="card glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="cert-body">
+            <h3>The Web Developer Bootcamp 2026</h3>
+            <p class="cert-issuer">Udemy / Web Bootcamp</p>
+            <span class="cert-tag highlight-ongoing">Ongoing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Mamata Balesh Kamagoudar. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Mamatak16" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/mamata-kamagoudar-096448298" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
